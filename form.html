@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>belajar membuat form</h1>
+    <form>
+      <div>
+        <label for="email">email : </label>
+        <input type="text" placeholder="masukan email anda" id="email" />
+      </div>
+      <div>
+        <label for="password">password : </label>
+
+        <input type="password" placeholder="masukan password" id="password" />
+      </div>
+      <div>
+        <label>tanggal lahir :</label>
+
+        <input type="date" />
+      </div>
+
+      <div>
+        <label>Jenis Kelamin :</label>
+
+        <span for="laki">Laki-laki</span>
+        <input type="radio" name="jender" id="laki" />
+        <label for="perempuan">Perempuan</label>
+        <input type="radio" name="jender" id="perempuan" />
+      </div>
+      <div>
+        <label>upload ijazah : </label>
+        <input type="file" />
+      </div>
+
+      <div>
+        <label>alamat : </label>
+        <textarea rows="4" cols="30" placeholder="alamat anda"></textarea>
+      </div>
+      <div>
+        <lable>Pendidikan Trakhir :</lable>
+        <select>
+          <option value="">pilih pendidikan</option>
+          <option>S3</option>
+          <option>S2</option>
+          <option>S1</option>
+          <option>D3</option>
+          <option>SMA</option>
+          <option>SMP</option>
+          <option>SD</option>
+        </select>
+      </div>
+
+      <button>Simpan</button>
+      <button>Cancel</button>
+    </form>
+  </body>
+</html>
